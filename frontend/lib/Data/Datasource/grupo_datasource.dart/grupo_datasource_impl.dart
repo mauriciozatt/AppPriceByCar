@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:orcamentos_indumar/Data/Datasource/grupo_datasource.dart/grupo_datasource.dart';
-import 'package:orcamentos_indumar/Domain/entities/grupo_entity.dart';
+import 'package:appPriceByCar/Data/Datasource/grupo_datasource.dart/grupo_datasource.dart';
+import 'package:appPriceByCar/Domain/entities/grupo_entity.dart';
 import 'package:http_interceptor/http_interceptor.dart';
 
 class LoggingInterceptor implements InterceptorContract {

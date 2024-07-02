@@ -1,13 +1,13 @@
 import 'package:flutter_triple/flutter_triple.dart';
-import 'package:orcamentos_indumar/Data/Datasource/grupo_datasource.dart/grupo_datasource_impl.dart';
-import 'package:orcamentos_indumar/Data/Repositories/grupo_repository_impl.dart';
-import 'package:orcamentos_indumar/Domain/entities/grupo_entity.dart';
-import 'package:orcamentos_indumar/Domain/usecases/excluir_grupo_use_case/excluir_grupo_use_case.dart';
-import 'package:orcamentos_indumar/Domain/usecases/excluir_grupo_use_case/excluir_grupo_use_case_impl.dart';
-import 'package:orcamentos_indumar/Domain/usecases/listar_grupo_por_id_use_case/listar_grupo_por_id_use_case.dart';
-import 'package:orcamentos_indumar/Domain/usecases/listar_grupo_por_id_use_case/listar_grupo_por_id_use_case_impl.dart';
-import 'package:orcamentos_indumar/Domain/usecases/listar_grupos_use_case/listar_grupos_use_case.dart';
-import 'package:orcamentos_indumar/Domain/usecases/listar_grupos_use_case/listar_grupos_use_case_impl.dart';
+import 'package:appPriceByCar/Data/Datasource/grupo_datasource.dart/grupo_datasource_impl.dart';
+import 'package:appPriceByCar/Data/Repositories/grupo_repository_impl.dart';
+import 'package:appPriceByCar/Domain/entities/grupo_entity.dart';
+import 'package:appPriceByCar/Domain/usecases/excluir_grupo_use_case/excluir_grupo_use_case.dart';
+import 'package:appPriceByCar/Domain/usecases/excluir_grupo_use_case/excluir_grupo_use_case_impl.dart';
+import 'package:appPriceByCar/Domain/usecases/listar_grupo_por_id_use_case/listar_grupo_por_id_use_case.dart';
+import 'package:appPriceByCar/Domain/usecases/listar_grupo_por_id_use_case/listar_grupo_por_id_use_case_impl.dart';
+import 'package:appPriceByCar/Domain/usecases/listar_grupos_use_case/listar_grupos_use_case.dart';
+import 'package:appPriceByCar/Domain/usecases/listar_grupos_use_case/listar_grupos_use_case_impl.dart';
 
 class GrupoController extends Store<List<GrupoEntity>> {
   GrupoController() : super([]);
@@ -27,8 +27,7 @@ class GrupoController extends Store<List<GrupoEntity>> {
     // Configurar manualmente as dependências
     _grupoDatasource = GrupoDatasourceImpl();
     _grupoRepository = GrupoRepositoryImpl(_grupoDatasource);
-    _listarGrupoPorIdUseCaseImpl =
-        ListarGrupoPorIdUseCaseImpl(_grupoRepository);
+    _listarGrupoPorIdUseCaseImpl = ListarGrupoPorIdUseCaseImpl(_grupoRepository);
     _listarGruposUseCaseImpl = ListarGruposUseCaseImpl(_grupoRepository);
     _excluirGrupoUseCaseImpl = ExcluirGrupoUseCaseImpl(_grupoRepository);
   }

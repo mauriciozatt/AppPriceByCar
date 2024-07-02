@@ -1,6 +1,6 @@
-import 'package:orcamentos_indumar/Data/Datasource/grupo_datasource.dart/grupo_datasource.dart';
-import 'package:orcamentos_indumar/Domain/Repositories/grupo_repository.dart';
-import 'package:orcamentos_indumar/Domain/entities/grupo_entity.dart';
+import 'package:appPriceByCar/Data/Datasource/grupo_datasource.dart/grupo_datasource.dart';
+import 'package:appPriceByCar/Domain/Repositories/grupo_repository.dart';
+import 'package:appPriceByCar/Domain/entities/grupo_entity.dart';
 
 class GrupoRepositoryImpl implements GrupoRepository {
   final GrupoDatasource grupoDataSource;

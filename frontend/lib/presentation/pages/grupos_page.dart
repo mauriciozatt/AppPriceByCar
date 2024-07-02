@@ -1,10 +1,10 @@
+import 'package:appPriceByCar/Domain/entities/grupo_entity.dart';
+import 'package:appPriceByCar/presentation/components/custom_card_listagem_simples.dart';
+import 'package:appPriceByCar/presentation/components/custom_edit_pesquisa.dart';
+import 'package:appPriceByCar/presentation/components/custom_form_grupo.dart';
+import 'package:appPriceByCar/presentation/controllers/grupo_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_triple/flutter_triple.dart';
-import 'package:orcamentos_indumar/Domain/entities/grupo_entity.dart';
-import 'package:orcamentos_indumar/presentation/components/custom_card_listagem_simples.dart';
-import 'package:orcamentos_indumar/presentation/components/custom_edit_pesquisa.dart';
-import 'package:orcamentos_indumar/presentation/components/custom_form_grupo.dart';
-import 'package:orcamentos_indumar/presentation/controllers/grupo_controller.dart';
 
 class GruposPage extends StatefulWidget {
   const GruposPage({super.key});

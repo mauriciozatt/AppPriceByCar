@@ -1,4 +1,4 @@
-import 'package:orcamentos_indumar/Domain/entities/grupo_entity.dart';
+import 'package:appPriceByCar/Domain/entities/grupo_entity.dart';
 
 abstract class GrupoRepository {
   Future<GrupoEntity> findById({required int id});

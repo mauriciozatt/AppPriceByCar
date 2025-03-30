@@ -1,6 +1,6 @@
-import 'package:appPriceByCar/Data/Datasource/grupo_datasource.dart/grupo_datasource.dart';
-import 'package:appPriceByCar/Domain/Repositories/grupo_repository.dart';
-import 'package:appPriceByCar/Domain/entities/grupo_entity.dart';
+import 'package:apppricebycar/Data/Datasource/grupo_datasource.dart/grupo_datasource.dart';
+import 'package:apppricebycar/Domain/Repositories/grupo_repository.dart';
+import 'package:apppricebycar/Domain/entities/grupo_entity.dart';
 
 class GrupoRepositoryImpl implements GrupoRepository {
   final GrupoDatasource grupoDataSource;
@@ -19,6 +19,11 @@ class GrupoRepositoryImpl implements GrupoRepository {
 
   @override
   Future<bool> deleteById({required int id}) async {
-      return await grupoDataSource.deleteById(id: id);
+    return await grupoDataSource.deleteById(id: id);
+  }
+  
+  @override
+  Future<int> insert({required GrupoEntity grupoEntity}) async {
+   return await grupoDataSource.insert(grupoEntity: grupoEntity);
   }
 }

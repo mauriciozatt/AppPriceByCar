@@ -8,11 +8,11 @@
         <version>3.2.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>br.ind.indumar</groupId>
-    <artifactId>orcamentos-indumar</artifactId>
+    <groupId>br.ind.priceByCar</groupId>
+    <artifactId>price-by-car</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>orcamentos-indumar</name>
-    <description>Demo project for Spring Boot</description>
+    <name>price-by-car</name>
+    <description>Api para pequeno app (PrinceByCar)</description>
     <properties>
         <java.version>19</java.version>
     </properties>
@@ -56,9 +56,21 @@
             <version>1.18.32</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
-
     <build>
         <plugins>
             <plugin>

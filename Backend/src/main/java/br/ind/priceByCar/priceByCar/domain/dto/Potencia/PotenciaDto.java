@@ -1,4 +1,4 @@
-package br.ind.priceByCar.priceByCar.domain.dto;
+package br.ind.priceByCar.priceByCar.domain.dto.Potencia;
 
 import jakarta.validation.constraints.NotBlank;
 

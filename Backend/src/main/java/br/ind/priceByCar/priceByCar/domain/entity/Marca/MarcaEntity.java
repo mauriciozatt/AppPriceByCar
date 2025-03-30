@@ -1,4 +1,4 @@
-package br.ind.priceByCar.priceByCar.domain.entity;
+package br.ind.priceByCar.priceByCar.domain.entity.Marca;
 
 
 import jakarta.persistence.*;

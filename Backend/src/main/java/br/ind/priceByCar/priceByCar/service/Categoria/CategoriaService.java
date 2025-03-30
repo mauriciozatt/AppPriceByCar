@@ -1,9 +1,9 @@
-package br.ind.priceByCar.priceByCar.service;
+package br.ind.priceByCar.priceByCar.service.Categoria;
 
-import br.ind.priceByCar.priceByCar.Converter.CategoriaConverter;
-import br.ind.priceByCar.priceByCar.domain.dto.CategoriaDto;
-import br.ind.priceByCar.priceByCar.domain.entity.CategoriaEntity;
-import br.ind.priceByCar.priceByCar.repository.CategoriaRepository;
+import br.ind.priceByCar.priceByCar.Converter.Categoria.CategoriaConverter;
+import br.ind.priceByCar.priceByCar.domain.dto.Categoria.CategoriaDto;
+import br.ind.priceByCar.priceByCar.domain.entity.Categoria.CategoriaEntity;
+import br.ind.priceByCar.priceByCar.repository.Categoria.CategoriaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

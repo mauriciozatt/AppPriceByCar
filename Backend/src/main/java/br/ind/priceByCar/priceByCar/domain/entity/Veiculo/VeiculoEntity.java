@@ -1,5 +1,8 @@
-package br.ind.priceByCar.priceByCar.domain.entity;
+package br.ind.priceByCar.priceByCar.domain.entity.Veiculo;
 
+import br.ind.priceByCar.priceByCar.domain.entity.Categoria.CategoriaEntity;
+import br.ind.priceByCar.priceByCar.domain.entity.Modelo.ModeloEntity;
+import br.ind.priceByCar.priceByCar.domain.entity.Potencia.PotenciaEntity;
 import br.ind.priceByCar.priceByCar.domain.enuns.StatusVeiculo;
 import br.ind.priceByCar.priceByCar.domain.enuns.TipoCombustivel;
 import jakarta.persistence.*;

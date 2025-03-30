@@ -1,8 +1,8 @@
-package br.ind.priceByCar.priceByCar.controller;
+package br.ind.priceByCar.priceByCar.controller.Potencia;
 
-import br.ind.priceByCar.priceByCar.domain.dto.PotenciaDto;
-import br.ind.priceByCar.priceByCar.domain.entity.PotenciaEntity;
-import br.ind.priceByCar.priceByCar.service.PotenciaService;
+import br.ind.priceByCar.priceByCar.domain.dto.Potencia.PotenciaDto;
+import br.ind.priceByCar.priceByCar.domain.entity.Potencia.PotenciaEntity;
+import br.ind.priceByCar.priceByCar.service.Potencia.PotenciaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,13 +1,13 @@
-package br.ind.priceByCar.priceByCar.domain.dto;
+package br.ind.priceByCar.priceByCar.domain.dto.Categoria;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 @Data
-public class GrupoDto {
+public class CategoriaDto {
 
     @NotBlank
-    @Size(max = 200)
+    @Size(max = 100)
     private String descricao;
 }

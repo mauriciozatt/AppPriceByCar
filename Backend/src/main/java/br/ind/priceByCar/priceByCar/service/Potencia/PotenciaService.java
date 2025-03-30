@@ -1,10 +1,10 @@
-package br.ind.priceByCar.priceByCar.service;
+package br.ind.priceByCar.priceByCar.service.Potencia;
 
 
-import br.ind.priceByCar.priceByCar.Converter.PotenciaConverter;
-import br.ind.priceByCar.priceByCar.domain.dto.PotenciaDto;
-import br.ind.priceByCar.priceByCar.domain.entity.PotenciaEntity;
-import br.ind.priceByCar.priceByCar.repository.PotenciaRepository;
+import br.ind.priceByCar.priceByCar.Converter.Potencia.PotenciaConverter;
+import br.ind.priceByCar.priceByCar.domain.dto.Potencia.PotenciaDto;
+import br.ind.priceByCar.priceByCar.domain.entity.Potencia.PotenciaEntity;
+import br.ind.priceByCar.priceByCar.repository.Potencia.PotenciaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

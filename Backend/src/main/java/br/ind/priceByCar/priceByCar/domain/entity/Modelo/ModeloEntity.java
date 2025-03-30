@@ -1,6 +1,7 @@
-package br.ind.priceByCar.priceByCar.domain.entity;
+package br.ind.priceByCar.priceByCar.domain.entity.Modelo;
 
 
+import br.ind.priceByCar.priceByCar.domain.entity.Marca.MarcaEntity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Size;
 

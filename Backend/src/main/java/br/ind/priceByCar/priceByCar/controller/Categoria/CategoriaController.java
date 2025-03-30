@@ -1,8 +1,8 @@
-package br.ind.priceByCar.priceByCar.controller;
+package br.ind.priceByCar.priceByCar.controller.Categoria;
 
-import br.ind.priceByCar.priceByCar.domain.dto.CategoriaDto;
-import br.ind.priceByCar.priceByCar.domain.entity.CategoriaEntity;
-import br.ind.priceByCar.priceByCar.service.CategoriaService;
+import br.ind.priceByCar.priceByCar.domain.dto.Categoria.CategoriaDto;
+import br.ind.priceByCar.priceByCar.domain.entity.Categoria.CategoriaEntity;
+import br.ind.priceByCar.priceByCar.service.Categoria.CategoriaService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;

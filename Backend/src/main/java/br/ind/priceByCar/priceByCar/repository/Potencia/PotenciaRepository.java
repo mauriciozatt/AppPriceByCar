@@ -1,6 +1,6 @@
-package br.ind.priceByCar.priceByCar.repository;
+package br.ind.priceByCar.priceByCar.repository.Potencia;
 
-import br.ind.priceByCar.priceByCar.domain.entity.PotenciaEntity;
+import br.ind.priceByCar.priceByCar.domain.entity.Potencia.PotenciaEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
